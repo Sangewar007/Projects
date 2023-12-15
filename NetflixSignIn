@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #backg {
+        height: 800px;
+        width: 1000hv;
+        background-image: linear-gradient(103.24deg, #00081de6 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #main {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    #b1 {
+        height: 50px;
+        width: 1000px;
+        display: flex;
+        font-size: x-large;
+        display: flex;
+    }
+
+    #bx1 {
+        height: 100px;
+        width: 200px;
+        text-align: center;
+        color: red;
+        font-size: x-large;
+        margin-top: 10px;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        ;
+    }
+
+    #bx2 {
+        height: 35px;
+        width: 120px;
+        margin-top: 20px;
+        margin-left: 550px;
+        margin-right: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 10%;
+        background: transparent;
+    }
+
+    rr {
+        background-color: black;
+        text-align: center;
+    }
+
+    #ee {
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 20px;
+        background-color: #e50914;
+        color: white;
+        border-radius: 5px;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: medium;
+        text-decoration: none;
+    }
+
+    #hed {
+        color: white;
+        margin-top: 170px;
+        margin-left: 300px;
+        font-size: x-large;
+    }
+
+    .hed1 {
+        color: white;
+        font-size: x-large;
+    }
+
+    #i1 {
+        margin-left: 500px;
+        padding: 20px;
+    }
+
+    #i2 {
+        margin-left: 340px;
+        padding: 20px;
+    }
+
+    #in {
+        display: flex;
+        text-decoration: none;
+        padding-top: 20px;
+    }
+
+    #inpt {
+        height: 60px;
+        width: 400px;
+        background: transparent;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 330px;
+        margin-right: 20px;
+        text-align: inherit;
+    }
+
+    #inpt2 {
+        height: 55px;
+        width: 250px;
+        border-radius: 5px;
+        background-color: #e50914;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        font-size: x-large;
+        text-decoration: none;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #bx{background-color: #00081de6 ;
+        margin-top: -200px;
+        height: 1400px;
+        padding: 45px;}
+    #box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .box1 {
+        height: 250px;
+        width: 300px;
+        border: 1px solid;
+        border-radius: 5px;
+        background-color: white;
+
+    }
+</style>
+
+<body>
+    <div id="backg">
+        <div id="main">
+            <div id="b1">
+                <div id="bx1">
+                    <h1>NETFLIX</h1>
+                </div>
+                <select name="" id="bx2">
+                    <option value="" class="rr">English</option>
+                    <option value="" class="rr">Hindi</option>
+                    <option value="" class="rr">Marathi</option>
+                </select>
+                <a href="" id="ee">sign in</a>
+            </div>
+        </div>
+        <div id="hed">
+            <h1>Unlimited movies,TV shows and more.</h1>
+        </div>
+        <div class="hed1" id="i1">Watch anywhere.Cancel anytime</div>
+        <div class="hed1" id="i2">Ready to watch?Enter your email to create or restart your membership</div>
+        <div id="in">
+            <input type="text" name="" id="inpt" placeholder="Email Address">
+            <a href="" id="inpt2">Get Started</a>
+        </div>
+    </div>
+    <div id="bx">
+       
+    </div>
+</body>
+
+</html>
