@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./loginpage.css">
+   
+</head>
+
+<body>
+    <div id="parent">
+        <div class="box" id="box1">
+            <div>
+                <h1>Login</h1>
+                <p> Get access to your Orders, Wishlist and Recommendations
+                </p>
+                <div ><img id="img" src="./flipimg.png" alt="" height="80px" width="150px"></div>
+            </div>
+
+        </div>
+        <div class="box" id="box2">
+
+            <div><input id="user" type="text" placeholder="ENTER NUMBER/EMAIL"></div>
+            <div id="term">By continuing, you agree to Flipkart's <a href="">Terms of Use </a>and <a href="">Privacy
+                    Policy</a>.</div>
+            <div id="button"><a  id="text" href="https://www.flipkart.com">Request OTP</a></div>
+            <div><a  id="new" href="https://www.flipkart.com">New to Flipkart?Create an account</a></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
